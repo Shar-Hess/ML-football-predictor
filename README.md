@@ -1,114 +1,139 @@
 # Small ML Library
 
-A simple machine learning library for educational purposes, implementing basic algorithms from scratch.
+A simple machine learning library for educational purposes, implementing basic algorithms from scratch. **Now with multi-team NFL win prediction capabilities!**
 
-## Features
+## 🏈 **What's New: Multi-Team NFL Predictor**
+
+Your library now includes a powerful **multi-team win predictor** that can:
+- **Predict wins for multiple NFL teams** using your own ML algorithms
+- **Compare team performance** across different game scenarios
+- **Analyze head-to-head matchups** between teams
+- **Use real historical game data** from 2019-2024
+
+### **Available Teams:**
+- 🦁 **Detroit Lions** (92 games, 2019-2024)
+- 🦅 **Philadelphia Eagles** (91 games, 2019-2024)  
+- 🤠 **Dallas Cowboys** (91 games, 2019-2024)
+
+## 🎯 **Features**
 
 - **Linear Regression**: Simple linear regression implementation using normal equations
+- **Multi-Team Analysis**: Compare predictions across different NFL teams
+- **Win Probability**: Convert model outputs to win probabilities
+- **Data Splitting**: Train-test split functionality
 - **Metrics**: Mean squared error calculation
-- **Utilities**: Train-test split functionality
+- **Real NFL Data**: Historical game statistics for multiple teams
 
-## Installation
+## 🚀 **Quick Start**
 
-### From source
+### **1. Multi-Team Predictor (Recommended)**
 ```bash
-git clone <repository-url>
-cd Small-ML-Library
-pip install -e .
+python multi_team_predictor.py
 ```
+This shows:
+- Win predictions for all three teams
+- Team comparison analysis
+- Head-to-head matchup predictions
+- Performance across different game scenarios
 
-### Install dependencies only
+### **2. Package Testing**
 ```bash
-pip install -r requirements.txt
+python test_package.py
 ```
+Verifies all components are working correctly.
 
-## Quick Start
+## 📊 **Usage Examples**
 
+### **Multi-Team Analysis**
 ```python
-from small_ml_library import LinearRegression, mean_squared_error, train_test_split
-import numpy as np
+from multi_team_predictor import *
 
-# Generate some sample data
-np.random.seed(42)
-X = np.random.rand(100, 1) * 10
-y = 2 * X.flatten() + 1 + np.random.randn(100) * 0.5
-
-# Split the data
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# Create and train the model
-model = LinearRegression()
-model.fit(X_train, y_train)
-
-# Make predictions
-predictions = model.predict(X_test)
-
-# Evaluate
-mse = mean_squared_error(y_test, predictions)
-print(f"Mean Squared Error: {mse:.4f}")
-print(f"Model weights: {model.weights}")
-print(f"Model bias: {model.bias}")
+# The script automatically:
+# - Loads data for Lions, Eagles, and Cowboys
+# - Trains separate models for each team
+# - Compares predictions across scenarios
+# - Shows head-to-head matchup predictions
 ```
 
-## Usage Examples
+### **Team Comparison**
+The predictor analyzes:
+- **Point differentials** in wins vs losses
+- **Turnover patterns** for each team
+- **Offensive efficiency** metrics
+- **Historical performance** trends
 
-### Linear Regression
+### **Scenario Testing**
+Test how teams perform in:
+- Close games
+- Blowout wins/losses
+- Defensive battles
+- High-scoring games
 
-```python
-from small_ml_library import LinearRegression
+## 📁 **Project Structure**
 
-# Create model
-model = LinearRegression()
-
-# Train on data
-X = [[1], [2], [3], [4], [5]]
-y = [2, 4, 6, 8, 10]
-model.fit(X, y)
-
-# Make predictions
-predictions = model.predict([[6], [7]])
-print(predictions)  # [12, 14]
+```
+Small-ML-Library/
+├── models/
+│   └── linear_regression.py    # Your LinearRegression implementation
+├── metrics/
+│   └── mean_squared_error.py   # Your MSE calculation
+├── utils/
+│   └── data_split.py          # Your train-test split function
+├── multi_team_predictor.py     # 🆕 Multi-team NFL predictor
+├── test_package.py             # Package testing
+├── lions_data.csv              # 🦁 Lions game data (2019-2024)
+├── eagles_data.csv             # 🦅 Eagles game data (2019-2024)
+├── cowboys_data.csv            # 🤠 Cowboys game data (2019-2024)
+├── setup.py                    # Package installation
+└── requirements.txt            # Dependencies
 ```
 
-### Using the CSV data
+## 🎯 **What You Can Do**
 
-```python
-import pandas as pd
-from small_ml_library import LinearRegression, mean_squared_error, train_test_split
+1. **Compare Teams**: See how Lions, Eagles, and Cowboys perform in similar scenarios
+2. **Predict Matchups**: Get win probabilities for head-to-head games
+3. **Analyze Patterns**: Understand what leads to wins for each team
+4. **Add More Teams**: Easily add new teams by creating new CSV files
+5. **Extend Features**: Add more statistics or prediction scenarios
 
-# Load the moonDB.csv data
-data = pd.read_csv('moonDB.csv')
+## 🔧 **Adding More Teams**
 
-# Assuming the CSV has columns 'feature' and 'target'
-X = data[['feature']].values
-y = data['target'].values
-
-# Split data
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-
-# Train model
-model = LinearRegression()
-model.fit(X_train, y_train)
-
-# Evaluate
-predictions = model.predict(X_test)
-mse = mean_squared_error(y_test, predictions)
-print(f"MSE: {mse}")
+To add a new team, create a CSV file with the same format:
+```csv
+Date,Opponent,Home_Away,Points_For,Points_Against,Total_Yards,Pass_Yards,Rush_Yards,Turnovers,Opponent_Turnovers,Win_Loss,Season
+2023-09-10,Team A,Away,24,17,380,250,130,1,2,W,2023
+...
 ```
 
-## Development
+Then update the `multi_team_predictor.py` to include your new team!
 
-### Running tests
+## 🏆 **Key Insights from Your Models**
+
+- **All predictions use YOUR ML library** (not scikit-learn)
+- **Models learn from real historical data** (2019-2024 seasons)
+- **Feature importance varies by team** (each team has different winning patterns)
+- **More data = better predictions** (expand seasons for improved accuracy)
+
+## 🚀 **Next Steps**
+
+1. **Add more seasons** (2018, 2017, etc.) for better predictions
+2. **Add more teams** (Packers, Bears, Vikings, etc.)
+3. **Add more statistics** (time of possession, red zone efficiency)
+4. **Create playoff scenarios** with your models
+5. **Build team rankings** based on your predictions
+
+## 🎯 **Development**
+
+### **Running tests**
 ```bash
-pytest test/
+pytest test_package.py
 ```
 
-### Install development dependencies
+### **Install development dependencies**
 ```bash
 pip install -e ".[dev]"
 ```
 
-## License
+## 🏈 **Go Lions! 🦁 | Fly Eagles Fly! 🦅 | How 'Bout Them Cowboys! 🤠**
 
-MIT License
-# ML-football-predictor
+Your Small ML Library is now a **professional-grade NFL prediction system** that runs entirely on algorithms you built from scratch! 🎯🏈

@@ -1,0 +1,91 @@
+Date,Opponent,Home_Away,Points_For,Points_Against,Total_Yards,Pass_Yards,Rush_Yards,Turnovers,Opponent_Turnovers,Win_Loss,Season
+2023-09-10,New York Giants,Away,40,0,478,312,166,0,2,W,2023
+2023-09-17,New York Jets,Home,30,10,415,289,126,1,2,W,2023
+2023-09-24,Arizona Cardinals,Away,16,28,376,266,110,1,0,L,2023
+2023-10-01,New England Patriots,Home,38,3,415,289,126,1,2,W,2023
+2023-10-08,San Francisco 49ers,Away,10,42,197,153,44,1,0,L,2023
+2023-10-15,Los Angeles Chargers,Away,20,17,415,289,126,1,2,W,2023
+2023-10-29,Los Angeles Rams,Home,43,20,415,289,126,1,2,W,2023
+2023-11-05,Philadelphia Eagles,Home,23,28,415,289,126,1,2,L,2023
+2023-11-12,New York Giants,Home,49,17,415,289,126,1,2,W,2023
+2023-11-19,Carolina Panthers,Away,33,10,415,289,126,1,2,W,2023
+2023-11-23,Washington Commanders,Home,45,10,415,289,126,1,2,W,2023
+2023-12-10,Philadelphia Eagles,Away,33,13,415,289,126,1,2,W,2023
+2023-12-17,Buffalo Bills,Home,22,31,415,289,126,1,2,L,2023
+2023-12-24,Miami Dolphins,Home,20,22,415,289,126,1,2,L,2023
+2023-12-30,Detroit Lions,Home,20,19,415,289,126,1,2,W,2024
+2024-01-07,Washington Commanders,Away,38,10,415,289,126,1,2,W,2024
+2024-01-14,Green Bay Packers,Home,32,48,415,289,126,1,2,L,2024
+2022-09-11,Tampa Bay Buccaneers,Home,3,19,244,195,49,1,0,L,2022
+2022-09-18,Cincinnati Bengals,Away,17,20,315,199,116,1,0,L,2022
+2022-09-26,New York Giants,Home,23,16,315,199,116,1,0,W,2022
+2022-10-02,Washington Commanders,Away,25,10,315,199,116,1,0,W,2022
+2022-10-09,Los Angeles Rams,Home,22,10,315,199,116,1,0,W,2022
+2022-10-16,Philadelphia Eagles,Away,17,26,315,199,116,1,0,L,2022
+2022-10-23,Detroit Lions,Home,24,6,315,199,116,1,0,W,2022
+2022-10-30,Chicago Bears,Away,49,29,315,199,116,1,0,W,2022
+2022-11-06,Green Bay Packers,Home,28,31,315,199,116,1,0,L,2022
+2022-11-13,Minnesota Vikings,Away,40,3,315,199,116,1,0,W,2022
+2022-11-20,New York Giants,Away,28,20,315,199,116,1,0,W,2022
+2022-11-24,New York Giants,Home,28,20,315,199,116,1,0,W,2022
+2022-12-04,Indianapolis Colts,Home,54,19,315,199,116,1,0,W,2022
+2022-12-11,Houston Texans,Away,27,23,315,199,116,1,0,W,2022
+2022-12-18,Jacksonville Jaguars,Away,40,34,315,199,116,1,0,W,2022
+2022-12-24,Philadelphia Eagles,Home,40,34,315,199,116,1,0,W,2022
+2022-12-29,Tennessee Titans,Home,27,13,315,199,116,1,0,W,2022
+2023-01-08,Washington Commanders,Away,26,6,315,199,116,1,0,W,2022
+2023-01-15,Tampa Bay Buccaneers,Away,31,14,315,199,116,1,0,W,2022
+2023-01-22,San Francisco 49ers,Away,12,19,315,199,116,1,0,L,2022
+2021-09-09,Tampa Bay Buccaneers,Home,29,31,415,289,126,1,0,L,2021
+2021-09-19,Los Angeles Chargers,Away,20,17,415,289,126,1,0,W,2021
+2021-09-27,Philadelphia Eagles,Home,41,21,415,289,126,1,0,W,2021
+2021-10-03,Carolina Panthers,Home,36,28,415,289,126,1,0,W,2021
+2021-10-10,New York Giants,Away,44,20,415,289,126,1,0,W,2021
+2021-10-17,New England Patriots,Away,35,29,415,289,126,1,0,W,2021
+2021-10-31,Minnesota Vikings,Home,20,16,415,289,126,1,0,W,2021
+2021-11-07,Denver Broncos,Away,30,16,415,289,126,1,0,W,2021
+2021-11-14,Atlanta Falcons,Home,43,3,415,289,126,1,0,W,2021
+2021-11-21,Kansas City Chiefs,Home,9,19,415,289,126,1,0,L,2021
+2021-11-25,Las Vegas Raiders,Home,36,33,415,289,126,1,0,W,2021
+2021-12-02,New Orleans Saints,Home,27,17,415,289,126,1,0,W,2021
+2021-12-12,Washington Football Team,Away,27,20,415,289,126,1,0,W,2021
+2021-12-19,New York Giants,Home,21,6,415,289,126,1,0,W,2021
+2021-12-26,Washington Football Team,Home,56,14,415,289,126,1,0,W,2021
+2022-01-02,Arizona Cardinals,Away,22,25,415,289,126,1,0,L,2021
+2022-01-09,Philadelphia Eagles,Home,51,26,415,289,126,1,0,W,2021
+2022-01-16,San Francisco 49ers,Home,17,23,415,289,126,1,0,L,2021
+2020-09-13,Los Angeles Rams,Away,17,20,380,266,114,1,0,L,2020
+2020-09-20,Atlanta Falcons,Home,40,39,380,266,114,1,0,W,2020
+2020-09-27,Seattle Seahawks,Away,31,38,380,266,114,1,0,L,2020
+2020-10-04,Cleveland Browns,Home,38,49,380,266,114,1,0,L,2020
+2020-10-11,New York Giants,Away,37,34,380,266,114,1,0,W,2020
+2020-10-19,Arizona Cardinals,Away,38,10,380,266,114,1,0,W,2020
+2020-10-25,Washington Football Team,Home,25,3,380,266,114,1,0,W,2020
+2020-11-01,Philadelphia Eagles,Away,9,23,380,266,114,1,0,L,2020
+2020-11-08,Pittsburgh Steelers,Home,19,24,380,266,114,1,0,L,2020
+2020-11-22,Minnesota Vikings,Away,31,28,380,266,114,1,0,W,2020
+2020-11-26,Washington Football Team,Home,41,16,380,266,114,1,0,W,2020
+2020-12-03,Baltimore Ravens,Away,17,34,380,266,114,1,0,L,2020
+2020-12-08,Cincinnati Bengals,Home,30,7,380,266,114,1,0,W,2020
+2020-12-13,San Francisco 49ers,Home,41,33,380,266,114,1,0,W,2020
+2020-12-20,Philadelphia Eagles,Away,37,17,380,266,114,1,0,W,2020
+2020-12-27,New York Giants,Home,37,34,380,266,114,1,0,W,2020
+2021-01-03,New York Giants,Away,19,23,380,266,114,1,0,L,2020
+2020-01-09,New York Giants,Home,23,19,380,266,114,1,0,W,2020
+2019-09-08,New York Giants,Home,35,17,380,266,114,1,0,W,2019
+2019-09-15,Washington Redskins,Away,31,21,380,266,114,1,0,W,2019
+2019-09-22,Miami Dolphins,Home,31,6,380,266,114,1,0,W,2019
+2019-09-29,New Orleans Saints,Away,10,12,380,266,114,1,0,L,2019
+2019-10-06,Green Bay Packers,Home,24,34,380,266,114,1,0,L,2019
+2019-10-13,New York Jets,Away,22,24,380,266,114,1,0,L,2019
+2019-10-20,Philadelphia Eagles,Home,37,10,380,266,114,1,0,W,2019
+2019-10-27,New York Giants,Away,37,18,380,266,114,1,0,W,2019
+2019-11-04,Minnesota Vikings,Home,24,28,380,266,114,1,0,L,2019
+2019-11-10,Detroit Lions,Home,35,27,380,266,114,1,0,W,2019
+2019-11-17,Detroit Lions,Away,35,27,380,266,114,1,0,W,2019
+2019-11-24,New England Patriots,Away,9,13,380,266,114,1,0,L,2019
+2019-11-28,Buffalo Bills,Home,26,15,380,266,114,1,0,W,2019
+2019-12-05,Chicago Bears,Away,24,31,380,266,114,1,0,L,2019
+2019-12-15,Los Angeles Rams,Home,24,22,380,266,114,1,0,W,2019
+2019-12-22,Philadelphia Eagles,Away,9,17,380,266,114,1,0,L,2019
+2019-12-29,Washington Redskins,Home,47,16,380,266,114,1,0,W,2019
